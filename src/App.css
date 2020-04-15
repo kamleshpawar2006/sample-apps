@@ -1,0 +1,70 @@
+.App {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 100vh;
+    /* padding: 20px; */
+    padding: 16px;  
+    
+}
+
+.menu-items {
+    list-style-type: none;
+    padding: 0px;
+    background-color: #00D8FF;
+    padding: 16px;  
+}
+
+.menu-items li {
+    display: inline;
+    margin-right: 5px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    padding: 2px 7px;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.menu-items li a:visited {
+    color: #0000FF;
+}
+
+.menu-items li a:hover {
+    color: rgb(6, 6, 151);
+    font-weight: 700;
+}
+
+.menu-items li .active {
+    color: rgb(5, 5, 100);
+    font-weight: 700;
+}
+
+.heading-bottom-border {
+    border-bottom: 2px solid green;
+    padding-bottom: 7px;
+}
+
+.main-body {
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-left: 9%;
+    padding: 13px;
+    border-radius: 1px;
+    min-height: 70vh;
+}   
+
+
+.header{
+    display: flex;
+}
+
+.header-title {
+    margin-top: 7px;
+    margin-left: 10%;
+    width: 100%;
+}
+
