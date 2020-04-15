@@ -7,7 +7,7 @@ function ToDoApp() {
 
     let [ todo, setTodo ] = React.useState("");
     let [ todos, setToDos] = React.useState([ 
-        {id: uid(), name: 'Gmail mail check', completed: false}, 
+        {id: uid(), name: 'Check Gmail', completed: false}, 
         {id: uid(), name: 'Attend stand-up call', completed: false},
         {id: uid(), name: 'Internal discussion', completed: false}
         ]);
