@@ -13,12 +13,14 @@ ul.todos {
 ul.todos li{
     list-style-type: none;
     padding: 5px;
+    margin-bottom: 11px;
 }
 
 ul.todos li label {
     border: 1px solid blue;
     border-radius: 2px;
     cursor: pointer;
+    padding: 5px;
 }
 
 ul.todos li label .completed {
